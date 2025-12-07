@@ -1,0 +1,898 @@
+
+
+Using device: cuda
+wandb: (1) Create a W&B account
+wandb: (2) Use an existing W&B account
+wandb: (3) Don't visualize my results
+wandb: Enter your choice: 2
+wandb: You chose 'Use an existing W&B account'
+wandb: Logging into wandb.ai. (Learn how to deploy a W&B server locally: https://wandb.me/wandb-server)
+wandb: You can find your API key in your browser here: https://wandb.ai/authorize?ref=models
+wandb: Paste an API key from your profile and hit enter, or press ctrl+c to quit: 
+wandb: No netrc file found, creating one.
+wandb: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+wandb: Currently logged in as: cs24m539 (cs24m539-iitmaana) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: ⢿ Waiting for wandb.init()...
+wandb: ⣻ Waiting for wandb.init()...
+wandb: Tracking run with wandb version 0.23.0
+wandb: Run data is saved locally in /content/wandb/run-20251203_014445-m49knbrf
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run magic-terrain-2
+wandb: ⭐️ View project at https://wandb.ai/cs24m539-iitmaana/mobilenet-cifar10
+wandb: 🚀 View run at https://wandb.ai/cs24m539-iitmaana/mobilenet-cifar10/runs/m49knbrf
+100% 170M/170M [00:03<00:00, 47.1MB/s]
+
+Epoch: 1/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=1.83, acc=36.6]
+Testing: 100% 79/79 [00:03<00:00, 23.55it/s]
+Best model saved with accuracy: 48.82%
+
+Epoch: 2/200
+Training: 100% 391/391 [00:44<00:00,  8.86it/s, loss=1.2, acc=56.7]
+Testing: 100% 79/79 [00:03<00:00, 24.09it/s]
+Best model saved with accuracy: 61.83%
+
+Epoch: 3/200
+Training: 100% 391/391 [00:44<00:00,  8.73it/s, loss=0.964, acc=66.1]
+Testing: 100% 79/79 [00:04<00:00, 19.22it/s]
+Best model saved with accuracy: 65.31%
+
+Epoch: 4/200
+Training: 100% 391/391 [00:44<00:00,  8.72it/s, loss=0.807, acc=72]
+Testing: 100% 79/79 [00:04<00:00, 18.38it/s]
+
+Epoch: 5/200
+Training: 100% 391/391 [00:45<00:00,  8.69it/s, loss=0.682, acc=76.4]
+Testing: 100% 79/79 [00:03<00:00, 23.53it/s]
+Best model saved with accuracy: 76.54%
+
+Epoch: 6/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.609, acc=79.2]
+Testing: 100% 79/79 [00:03<00:00, 24.41it/s]
+Best model saved with accuracy: 79.36%
+
+Epoch: 7/200
+Training: 100% 391/391 [00:45<00:00,  8.56it/s, loss=0.551, acc=81.1]
+Testing: 100% 79/79 [00:03<00:00, 23.95it/s]
+Best model saved with accuracy: 79.89%
+
+Epoch: 8/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.506, acc=82.5]
+Testing: 100% 79/79 [00:03<00:00, 25.14it/s]
+Best model saved with accuracy: 82.63%
+
+Epoch: 9/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.469, acc=83.7]
+Testing: 100% 79/79 [00:03<00:00, 24.61it/s]
+
+Epoch: 10/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.447, acc=84.4]
+Testing: 100% 79/79 [00:03<00:00, 20.36it/s]
+
+Epoch: 11/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.417, acc=85.6]
+Testing: 100% 79/79 [00:04<00:00, 18.24it/s]
+Best model saved with accuracy: 83.52%
+
+Epoch: 12/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.396, acc=86.3]
+Testing: 100% 79/79 [00:03<00:00, 24.95it/s]
+Best model saved with accuracy: 85.19%
+
+Epoch: 13/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.375, acc=86.9]
+Testing: 100% 79/79 [00:03<00:00, 24.34it/s]
+Best model saved with accuracy: 85.46%
+
+Epoch: 14/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.355, acc=87.7]
+Testing: 100% 79/79 [00:03<00:00, 24.67it/s]
+
+Epoch: 15/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.338, acc=88.3]
+Testing: 100% 79/79 [00:03<00:00, 20.51it/s]
+
+Epoch: 16/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.327, acc=88.7]
+Testing: 100% 79/79 [00:04<00:00, 17.03it/s]
+Best model saved with accuracy: 85.97%
+
+Epoch: 17/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.313, acc=89.2]
+Testing: 100% 79/79 [00:03<00:00, 25.33it/s]
+Best model saved with accuracy: 86.30%
+
+Epoch: 18/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.306, acc=89.3]
+Testing: 100% 79/79 [00:03<00:00, 24.87it/s]
+Best model saved with accuracy: 87.56%
+
+Epoch: 19/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.291, acc=89.9]
+Testing: 100% 79/79 [00:03<00:00, 25.48it/s]
+Best model saved with accuracy: 87.89%
+
+Epoch: 20/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.282, acc=90.2]
+Testing: 100% 79/79 [00:03<00:00, 24.20it/s]
+
+Epoch: 21/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.275, acc=90.4]
+Testing: 100% 79/79 [00:03<00:00, 20.14it/s]
+Best model saved with accuracy: 88.09%
+
+Epoch: 22/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.262, acc=91]
+Testing: 100% 79/79 [00:04<00:00, 17.62it/s]
+
+Epoch: 23/200
+Training: 100% 391/391 [00:45<00:00,  8.58it/s, loss=0.258, acc=90.9]
+Testing: 100% 79/79 [00:03<00:00, 24.99it/s]
+
+Epoch: 24/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.249, acc=91.3]
+Testing: 100% 79/79 [00:03<00:00, 24.67it/s]
+
+Epoch: 25/200
+Training: 100% 391/391 [00:45<00:00,  8.58it/s, loss=0.243, acc=91.6]
+Testing: 100% 79/79 [00:03<00:00, 24.95it/s]
+
+Epoch: 26/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.234, acc=91.9]
+Testing: 100% 79/79 [00:03<00:00, 24.91it/s]
+Best model saved with accuracy: 88.15%
+
+Epoch: 27/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.224, acc=92.1]
+Testing: 100% 79/79 [00:04<00:00, 18.81it/s]
+
+Epoch: 28/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.226, acc=91.9]
+Testing: 100% 79/79 [00:04<00:00, 18.87it/s]
+
+Epoch: 29/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.222, acc=92.4]
+Testing: 100% 79/79 [00:03<00:00, 24.76it/s]
+
+Epoch: 30/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.207, acc=92.7]
+Testing: 100% 79/79 [00:03<00:00, 24.39it/s]
+Best model saved with accuracy: 88.91%
+
+Epoch: 31/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.205, acc=92.9]
+Testing: 100% 79/79 [00:03<00:00, 24.94it/s]
+
+Epoch: 32/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.204, acc=92.8]
+Testing: 100% 79/79 [00:03<00:00, 23.88it/s]
+
+Epoch: 33/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.193, acc=93.2]
+Testing: 100% 79/79 [00:04<00:00, 17.00it/s]
+
+Epoch: 34/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.19, acc=93.3]
+Testing: 100% 79/79 [00:03<00:00, 20.83it/s]
+Best model saved with accuracy: 89.24%
+
+Epoch: 35/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.185, acc=93.5]
+Testing: 100% 79/79 [00:03<00:00, 24.47it/s]
+
+Epoch: 36/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.188, acc=93.4]
+Testing: 100% 79/79 [00:03<00:00, 25.37it/s]
+Best model saved with accuracy: 89.57%
+
+Epoch: 37/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.182, acc=93.6]
+Testing: 100% 79/79 [00:03<00:00, 25.10it/s]
+
+Epoch: 38/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.173, acc=94]
+Testing: 100% 79/79 [00:03<00:00, 20.48it/s]
+
+Epoch: 39/200
+Training: 100% 391/391 [00:45<00:00,  8.58it/s, loss=0.172, acc=93.9]
+Testing: 100% 79/79 [00:04<00:00, 18.60it/s]
+Best model saved with accuracy: 89.82%
+
+Epoch: 40/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.172, acc=94]
+Testing: 100% 79/79 [00:03<00:00, 25.41it/s]
+
+Epoch: 41/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.159, acc=94.4]
+Testing: 100% 79/79 [00:03<00:00, 24.99it/s]
+
+Epoch: 42/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.159, acc=94.3]
+Testing: 100% 79/79 [00:03<00:00, 25.36it/s]
+
+Epoch: 43/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.158, acc=94.4]
+Testing: 100% 79/79 [00:03<00:00, 24.75it/s]
+
+Epoch: 44/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.153, acc=94.6]
+Testing: 100% 79/79 [00:03<00:00, 20.15it/s]
+
+Epoch: 45/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.148, acc=94.7]
+Testing: 100% 79/79 [00:04<00:00, 17.74it/s]
+
+Epoch: 46/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.146, acc=94.9]
+Testing: 100% 79/79 [00:03<00:00, 25.13it/s]
+
+Epoch: 47/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.152, acc=94.6]
+Testing: 100% 79/79 [00:03<00:00, 24.81it/s]
+Best model saved with accuracy: 90.29%
+
+Epoch: 48/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.139, acc=95]
+Testing: 100% 79/79 [00:03<00:00, 25.08it/s]
+
+Epoch: 49/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.139, acc=95.1]
+Testing: 100% 79/79 [00:03<00:00, 24.39it/s]
+
+Epoch: 50/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.136, acc=95.2]
+Testing: 100% 79/79 [00:04<00:00, 16.53it/s]
+
+Epoch: 51/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.129, acc=95.4]
+Testing: 100% 79/79 [00:03<00:00, 20.91it/s]
+
+Epoch: 52/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.133, acc=95.3]
+Testing: 100% 79/79 [00:03<00:00, 25.07it/s]
+
+Epoch: 53/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.124, acc=95.6]
+Testing: 100% 79/79 [00:03<00:00, 24.47it/s]
+
+Epoch: 54/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.124, acc=95.5]
+Testing: 100% 79/79 [00:03<00:00, 25.10it/s]
+
+Epoch: 55/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.123, acc=95.6]
+Testing: 100% 79/79 [00:04<00:00, 19.74it/s]
+
+Epoch: 56/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.122, acc=95.7]
+Testing: 100% 79/79 [00:04<00:00, 18.24it/s]
+
+Epoch: 57/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.118, acc=95.8]
+Testing: 100% 79/79 [00:03<00:00, 24.87it/s]
+
+Epoch: 58/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.113, acc=95.9]
+Testing: 100% 79/79 [00:03<00:00, 25.07it/s]
+
+Epoch: 59/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.115, acc=96]
+Testing: 100% 79/79 [00:03<00:00, 25.10it/s]
+
+Epoch: 60/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.104, acc=96.3]
+Testing: 100% 79/79 [00:03<00:00, 25.02it/s]
+
+Epoch: 61/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.11, acc=96]
+Testing: 100% 79/79 [00:03<00:00, 20.03it/s]
+Best model saved with accuracy: 90.99%
+
+Epoch: 62/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.105, acc=96.2]
+Testing: 100% 79/79 [00:04<00:00, 17.47it/s]
+
+Epoch: 63/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.103, acc=96.4]
+Testing: 100% 79/79 [00:03<00:00, 22.58it/s]
+
+Epoch: 64/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.102, acc=96.4]
+Testing: 100% 79/79 [00:03<00:00, 25.01it/s]
+
+Epoch: 65/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.102, acc=96.4]
+Testing: 100% 79/79 [00:03<00:00, 25.74it/s]
+
+Epoch: 66/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.0989, acc=96.5]
+Testing: 100% 79/79 [00:03<00:00, 24.24it/s]
+
+Epoch: 67/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0951, acc=96.6]
+Testing: 100% 79/79 [00:03<00:00, 20.88it/s]
+
+Epoch: 68/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0968, acc=96.6]
+Testing: 100% 79/79 [00:04<00:00, 16.99it/s]
+
+Epoch: 69/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.0936, acc=96.6]
+Testing: 100% 79/79 [00:03<00:00, 22.82it/s]
+
+Epoch: 70/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.0925, acc=96.7]
+Testing: 100% 79/79 [00:03<00:00, 24.68it/s]
+Best model saved with accuracy: 91.22%
+
+Epoch: 71/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0869, acc=97]
+Testing: 100% 79/79 [00:03<00:00, 25.05it/s]
+Best model saved with accuracy: 91.48%
+
+Epoch: 72/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0867, acc=97]
+Testing: 100% 79/79 [00:03<00:00, 24.88it/s]
+
+Epoch: 73/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.0881, acc=96.9]
+Testing: 100% 79/79 [00:03<00:00, 22.47it/s]
+
+Epoch: 74/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0868, acc=97]
+Testing: 100% 79/79 [00:04<00:00, 16.80it/s]
+
+Epoch: 75/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.0806, acc=97.1]
+Testing: 100% 79/79 [00:03<00:00, 20.22it/s]
+
+Epoch: 76/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.0822, acc=97.2]
+Testing: 100% 79/79 [00:03<00:00, 24.57it/s]
+
+Epoch: 77/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0786, acc=97.2]
+Testing: 100% 79/79 [00:03<00:00, 24.93it/s]
+
+Epoch: 78/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0761, acc=97.3]
+Testing: 100% 79/79 [00:03<00:00, 25.40it/s]
+
+Epoch: 79/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0764, acc=97.4]
+Testing: 100% 79/79 [00:03<00:00, 23.98it/s]
+
+Epoch: 80/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0761, acc=97.4]
+Testing: 100% 79/79 [00:03<00:00, 21.37it/s]
+
+Epoch: 81/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0728, acc=97.5]
+Testing: 100% 79/79 [00:04<00:00, 16.93it/s]
+
+Epoch: 82/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.0694, acc=97.5]
+Testing: 100% 79/79 [00:03<00:00, 21.97it/s]
+
+Epoch: 83/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0714, acc=97.5]
+Testing: 100% 79/79 [00:03<00:00, 25.47it/s]
+
+Epoch: 84/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0718, acc=97.4]
+Testing: 100% 79/79 [00:03<00:00, 25.15it/s]
+
+Epoch: 85/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.0671, acc=97.6]
+Testing: 100% 79/79 [00:03<00:00, 25.43it/s]
+Best model saved with accuracy: 91.61%
+
+Epoch: 86/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0641, acc=97.8]
+Testing: 100% 79/79 [00:04<00:00, 19.61it/s]
+
+Epoch: 87/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0641, acc=97.8]
+Testing: 100% 79/79 [00:04<00:00, 17.41it/s]
+
+Epoch: 88/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.063, acc=97.9]
+Testing: 100% 79/79 [00:03<00:00, 23.11it/s]
+
+Epoch: 89/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0613, acc=97.8]
+Testing: 100% 79/79 [00:03<00:00, 24.77it/s]
+
+Epoch: 90/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0626, acc=97.8]
+Testing: 100% 79/79 [00:03<00:00, 25.10it/s]
+
+Epoch: 91/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0614, acc=97.9]
+Testing: 100% 79/79 [00:03<00:00, 24.97it/s]
+
+Epoch: 92/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0568, acc=98]
+Testing: 100% 79/79 [00:03<00:00, 24.50it/s]
+
+Epoch: 93/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0543, acc=98.1]
+Testing: 100% 79/79 [00:03<00:00, 22.06it/s]
+Best model saved with accuracy: 91.78%
+
+Epoch: 94/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0468, acc=98.3]
+Testing: 100% 79/79 [00:04<00:00, 16.88it/s]
+
+Epoch: 95/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.0482, acc=98.3]
+Testing: 100% 79/79 [00:03<00:00, 22.95it/s]
+
+Epoch: 96/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.0511, acc=98.2]
+Testing: 100% 79/79 [00:03<00:00, 25.19it/s]
+
+Epoch: 97/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.0508, acc=98.2]
+Testing: 100% 79/79 [00:03<00:00, 25.00it/s]
+Best model saved with accuracy: 91.87%
+
+Epoch: 98/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0487, acc=98.3]
+Testing: 100% 79/79 [00:03<00:00, 24.88it/s]
+Best model saved with accuracy: 92.10%
+
+Epoch: 99/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.0442, acc=98.4]
+Testing: 100% 79/79 [00:03<00:00, 22.47it/s]
+
+Epoch: 100/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0447, acc=98.5]
+Testing: 100% 79/79 [00:04<00:00, 16.84it/s]
+
+Epoch: 101/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.045, acc=98.4]
+Testing: 100% 79/79 [00:03<00:00, 20.08it/s]
+
+Epoch: 102/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0446, acc=98.5]
+Testing: 100% 79/79 [00:03<00:00, 24.41it/s]
+
+Epoch: 103/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.042, acc=98.5]
+Testing: 100% 79/79 [00:03<00:00, 25.24it/s]
+
+Epoch: 104/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0397, acc=98.6]
+Testing: 100% 79/79 [00:03<00:00, 24.93it/s]
+
+Epoch: 105/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.0405, acc=98.5]
+Testing: 100% 79/79 [00:03<00:00, 24.84it/s]
+
+Epoch: 106/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.0334, acc=98.8]
+Testing: 100% 79/79 [00:03<00:00, 20.36it/s]
+Best model saved with accuracy: 92.30%
+
+Epoch: 107/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.0376, acc=98.7]
+Testing: 100% 79/79 [00:04<00:00, 17.57it/s]
+
+Epoch: 108/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0372, acc=98.7]
+Testing: 100% 79/79 [00:03<00:00, 25.63it/s]
+
+Epoch: 109/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.0303, acc=98.9]
+Testing: 100% 79/79 [00:03<00:00, 25.25it/s]
+
+Epoch: 110/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.0348, acc=98.8]
+Testing: 100% 79/79 [00:03<00:00, 23.85it/s]
+
+Epoch: 111/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.029, acc=99]
+Testing: 100% 79/79 [00:03<00:00, 25.10it/s]
+
+Epoch: 112/200
+Training: 100% 391/391 [00:45<00:00,  8.66it/s, loss=0.0274, acc=99]
+Testing: 100% 79/79 [00:03<00:00, 21.95it/s]
+
+Epoch: 113/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.026, acc=99.1]
+Testing: 100% 79/79 [00:04<00:00, 16.93it/s]
+
+Epoch: 114/200
+Training: 100% 391/391 [00:45<00:00,  8.66it/s, loss=0.0329, acc=98.8]
+Testing: 100% 79/79 [00:03<00:00, 22.61it/s]
+Best model saved with accuracy: 92.63%
+
+Epoch: 115/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0257, acc=99.2]
+Testing: 100% 79/79 [00:03<00:00, 25.03it/s]
+
+Epoch: 116/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0243, acc=99.2]
+Testing: 100% 79/79 [00:03<00:00, 25.20it/s]
+
+Epoch: 117/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0227, acc=99.2]
+Testing: 100% 79/79 [00:03<00:00, 24.73it/s]
+
+Epoch: 118/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0208, acc=99.3]
+Testing: 100% 79/79 [00:03<00:00, 25.32it/s]
+
+Epoch: 119/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.0196, acc=99.3]
+Testing: 100% 79/79 [00:04<00:00, 19.26it/s]
+
+Epoch: 120/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.0236, acc=99.2]
+Testing: 100% 79/79 [00:04<00:00, 18.70it/s]
+
+Epoch: 121/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.0193, acc=99.3]
+Testing: 100% 79/79 [00:03<00:00, 25.00it/s]
+
+Epoch: 122/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0186, acc=99.4]
+Testing: 100% 79/79 [00:03<00:00, 25.12it/s]
+
+Epoch: 123/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0217, acc=99.3]
+Testing: 100% 79/79 [00:03<00:00, 24.62it/s]
+
+Epoch: 124/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0191, acc=99.4]
+Testing: 100% 79/79 [00:03<00:00, 24.80it/s]
+Best model saved with accuracy: 92.80%
+
+Epoch: 125/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0134, acc=99.5]
+Testing: 100% 79/79 [00:04<00:00, 18.37it/s]
+
+Epoch: 126/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0127, acc=99.6]
+Testing: 100% 79/79 [00:04<00:00, 19.29it/s]
+
+Epoch: 127/200
+Training: 100% 391/391 [00:45<00:00,  8.66it/s, loss=0.014, acc=99.5]
+Testing: 100% 79/79 [00:03<00:00, 24.73it/s]
+
+Epoch: 128/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0143, acc=99.5]
+Testing: 100% 79/79 [00:03<00:00, 25.17it/s]
+
+Epoch: 129/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.0112, acc=99.6]
+Testing: 100% 79/79 [00:03<00:00, 25.31it/s]
+Best model saved with accuracy: 92.82%
+
+Epoch: 130/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.0128, acc=99.6]
+Testing: 100% 79/79 [00:03<00:00, 24.12it/s]
+Best model saved with accuracy: 92.96%
+
+Epoch: 131/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.0114, acc=99.6]
+Testing: 100% 79/79 [00:04<00:00, 19.38it/s]
+
+Epoch: 132/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.0104, acc=99.7]
+Testing: 100% 79/79 [00:04<00:00, 18.01it/s]
+Best model saved with accuracy: 93.00%
+
+Epoch: 133/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.00954, acc=99.7]
+Testing: 100% 79/79 [00:03<00:00, 23.12it/s]
+
+Epoch: 134/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.00951, acc=99.7]
+Testing: 100% 79/79 [00:03<00:00, 25.42it/s]
+
+Epoch: 135/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00752, acc=99.8]
+Testing: 100% 79/79 [00:03<00:00, 25.16it/s]
+
+Epoch: 136/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.00765, acc=99.7]
+Testing: 100% 79/79 [00:03<00:00, 24.32it/s]
+Best model saved with accuracy: 93.12%
+
+Epoch: 137/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.00817, acc=99.7]
+Testing: 100% 79/79 [00:03<00:00, 22.49it/s]
+
+Epoch: 138/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00732, acc=99.8]
+Testing: 100% 79/79 [00:04<00:00, 16.61it/s]
+
+Epoch: 139/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00517, acc=99.8]
+Testing: 100% 79/79 [00:03<00:00, 21.26it/s]
+Best model saved with accuracy: 93.39%
+
+Epoch: 140/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.00506, acc=99.8]
+Testing: 100% 79/79 [00:03<00:00, 25.58it/s]
+
+Epoch: 141/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.00368, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 24.17it/s]
+
+Epoch: 142/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.00396, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 25.29it/s]
+
+Epoch: 143/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.00392, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 24.98it/s]
+
+Epoch: 144/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00336, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 21.22it/s]
+
+Epoch: 145/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.0029, acc=99.9]
+Testing: 100% 79/79 [00:04<00:00, 17.17it/s]
+
+Epoch: 146/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.00261, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 21.33it/s]
+
+Epoch: 147/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.00316, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 25.36it/s]
+
+Epoch: 148/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.0025, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 25.40it/s]
+
+Epoch: 149/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00274, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 25.21it/s]
+Best model saved with accuracy: 93.48%
+
+Epoch: 150/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.00235, acc=99.9]
+Testing: 100% 79/79 [00:03<00:00, 21.85it/s]
+Best model saved with accuracy: 93.51%
+
+Epoch: 151/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00188, acc=99.9]
+Testing: 100% 79/79 [00:04<00:00, 17.15it/s]
+Best model saved with accuracy: 93.53%
+
+Epoch: 152/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00173, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 22.63it/s]
+
+Epoch: 153/200
+Training: 100% 391/391 [00:45<00:00,  8.66it/s, loss=0.00133, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.35it/s]
+Best model saved with accuracy: 93.63%
+
+Epoch: 154/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00149, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.14it/s]
+
+Epoch: 155/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00162, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.13it/s]
+
+Epoch: 156/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.00134, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.13it/s]
+
+Epoch: 157/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00145, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 19.34it/s]
+
+Epoch: 158/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000996, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 18.57it/s]
+
+Epoch: 159/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00101, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.34it/s]
+
+Epoch: 160/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.00115, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.99it/s]
+Best model saved with accuracy: 93.69%
+
+Epoch: 161/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.000645, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.98it/s]
+Best model saved with accuracy: 93.73%
+
+Epoch: 162/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000991, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.50it/s]
+
+Epoch: 163/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00102, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 22.73it/s]
+
+Epoch: 164/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.000828, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 17.32it/s]
+
+Epoch: 165/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.000835, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 20.91it/s]
+
+Epoch: 166/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.000765, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.95it/s]
+
+Epoch: 167/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.000638, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.64it/s]
+Best model saved with accuracy: 93.78%
+
+Epoch: 168/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.000844, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.99it/s]
+Best model saved with accuracy: 93.81%
+
+Epoch: 169/200
+Training: 100% 391/391 [00:45<00:00,  8.56it/s, loss=0.000832, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 20.25it/s]
+
+Epoch: 170/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.000714, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 18.65it/s]
+
+Epoch: 171/200
+Training: 100% 391/391 [00:45<00:00,  8.59it/s, loss=0.00069, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.96it/s]
+
+Epoch: 172/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000483, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.16it/s]
+
+Epoch: 173/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.000548, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.78it/s]
+
+Epoch: 174/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.000718, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.17it/s]
+
+Epoch: 175/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000687, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 21.00it/s]
+
+Epoch: 176/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.000551, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 16.47it/s]
+
+Epoch: 177/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000515, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 21.34it/s]
+
+Epoch: 178/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.000567, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.19it/s]
+
+Epoch: 179/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.00069, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.25it/s]
+
+Epoch: 180/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.000555, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.81it/s]
+
+Epoch: 181/200
+Training: 100% 391/391 [00:45<00:00,  8.62it/s, loss=0.000538, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 23.99it/s]
+
+Epoch: 182/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000576, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 18.65it/s]
+
+Epoch: 183/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000513, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 19.38it/s]
+
+Epoch: 184/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000584, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.04it/s]
+
+Epoch: 185/200
+Training: 100% 391/391 [00:45<00:00,  8.66it/s, loss=0.000574, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.02it/s]
+
+Epoch: 186/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000549, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.25it/s]
+
+Epoch: 187/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000524, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.27it/s]
+
+Epoch: 188/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000599, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 19.81it/s]
+
+Epoch: 189/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000521, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 17.27it/s]
+
+Epoch: 190/200
+Training: 100% 391/391 [00:45<00:00,  8.65it/s, loss=0.000418, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 22.48it/s]
+
+Epoch: 191/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000473, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.97it/s]
+
+Epoch: 192/200
+Training: 100% 391/391 [00:45<00:00,  8.60it/s, loss=0.000502, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.12it/s]
+
+Epoch: 193/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000492, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.54it/s]
+Best model saved with accuracy: 93.85%
+
+Epoch: 194/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000563, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.60it/s]
+
+Epoch: 195/200
+Training: 100% 391/391 [00:45<00:00,  8.61it/s, loss=0.000418, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 21.47it/s]
+
+Epoch: 196/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000503, acc=100]
+Testing: 100% 79/79 [00:04<00:00, 16.99it/s]
+
+Epoch: 197/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000481, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 22.07it/s]
+
+Epoch: 198/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000476, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 24.35it/s]
+
+Epoch: 199/200
+Training: 100% 391/391 [00:45<00:00,  8.64it/s, loss=0.000522, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.36it/s]
+
+Epoch: 200/200
+Training: 100% 391/391 [00:45<00:00,  8.63it/s, loss=0.000611, acc=100]
+Testing: 100% 79/79 [00:03<00:00, 25.35it/s]
+
+Training completed! Best test accuracy: 93.85%
+wandb: ⢿ updating run metadata (0.0s)
+wandb: ⣻ updating run metadata (0.0s)
+wandb: ⣽ updating run metadata (0.0s)
+wandb: ⣾ updating run metadata (0.0s)
+wandb: ⣷ uploading history steps 199-200, summary, console lines 845-847 (0.1s)
+wandb: ⣯ uploading history steps 199-200, summary, console lines 845-847 (0.1s)
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▆▆▇▇▇▇████
+wandb: learning_rate █████▇▇▇▇▇▆▆▆▆▆▅▅▄▄▄▃▃▃▃▃▃▃▃▂▂▂▂▂▂▁▁▁▁▁▁
+wandb:      test_acc ▁▅▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇██▇▇██████████████████
+wandb:     test_loss █▄▃▂▂▂▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     train_acc ▁▃▅▇▇▇▇▇▇▇██████████████████████████████
+wandb:    train_loss █▇▄▄▄▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:         epoch 200
+wandb: learning_rate 0
+wandb:      test_acc 93.71
+wandb:     test_loss 0.35256
+wandb:     train_acc 99.986
+wandb:    train_loss 0.00061
+wandb: 
+wandb: 🚀 View run magic-terrain-2 at: https://wandb.ai/cs24m539-iitmaana/mobilenet-cifar10/runs/m49knbrf
+wandb: ⭐️ View project at: https://wandb.ai/cs24m539-iitmaana/mobilenet-cifar10
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251203_014445-m49knbrf/logs
+

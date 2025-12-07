@@ -1,0 +1,117 @@
+Using device: cuda
+Loading CIFAR-10 dataset...
+Loading original model...
+Original Model Size: 8.66 MB
+Calculating baseline accuracy...
+Baseline Accuracy: 93.85%
+
+Running 9 experiments...
+Weight bits options: [8, 4, 2]
+Activation bits options: [8, 4, 2]
+
+
+============================================================
+Experiment 1/9: W8_A8
+============================================================
+wandb: WARNING `start_method` is deprecated and will be removed in a future version of wandb. This setting is currently non-functional and safely ignored.
+Compressed Accuracy: 93.78%
+Accuracy Drop: 0.07%
+Original Size: 8.66 MB
+Compressed Size: 2.40 MB
+Compression Ratio: 3.61x
+
+============================================================
+Experiment 2/9: W8_A4
+============================================================
+Compressed Accuracy: 93.78%
+Accuracy Drop: 0.07%
+Original Size: 8.66 MB
+Compressed Size: 2.40 MB
+Compression Ratio: 3.61x
+
+============================================================
+Experiment 3/9: W8_A2
+============================================================
+Compressed Accuracy: 93.78%
+Accuracy Drop: 0.07%
+Original Size: 8.66 MB
+Compressed Size: 2.40 MB
+Compression Ratio: 3.61x
+
+============================================================
+Experiment 4/9: W4_A8
+============================================================
+Compressed Accuracy: 92.08%
+Accuracy Drop: 1.77%
+Original Size: 8.66 MB
+Compressed Size: 1.36 MB
+Compression Ratio: 6.38x
+
+============================================================
+Experiment 5/9: W4_A4
+============================================================
+Compressed Accuracy: 92.08%
+Accuracy Drop: 1.77%
+Original Size: 8.66 MB
+Compressed Size: 1.36 MB
+Compression Ratio: 6.38x
+
+============================================================
+Experiment 6/9: W4_A2
+============================================================
+Compressed Accuracy: 92.08%
+Accuracy Drop: 1.77%
+Original Size: 8.66 MB
+Compressed Size: 1.36 MB
+Compression Ratio: 6.38x
+
+============================================================
+Experiment 7/9: W2_A8
+============================================================
+Compressed Accuracy: 10.00%
+Accuracy Drop: 83.85%
+Original Size: 8.66 MB
+Compressed Size: 0.84 MB
+Compression Ratio: 10.35x
+
+============================================================
+Experiment 8/9: W2_A4
+============================================================
+Compressed Accuracy: 10.00%
+Accuracy Drop: 83.85%
+Original Size: 8.66 MB
+Compressed Size: 0.84 MB
+Compression Ratio: 10.35x
+
+============================================================
+Experiment 9/9: W2_A2
+============================================================
+Compressed Accuracy: 10.00%
+Accuracy Drop: 83.85%
+Original Size: 8.66 MB
+Compressed Size: 0.84 MB
+Compression Ratio: 10.35x
+
+====================================================================================================
+SUMMARY OF ALL EXPERIMENTS
+====================================================================================================
+W_bits   A_bits   Accuracy   Drop     Orig_MB    Comp_MB    Ratio   
+----------------------------------------------------------------------------------------------------
+8        8        93.78      0.07     8.66       2.40       3.61    
+8        4        93.78      0.07     8.66       2.40       3.61    
+8        2        93.78      0.07     8.66       2.40       3.61    
+4        8        92.08      1.77     8.66       1.36       6.38    
+4        4        92.08      1.77     8.66       1.36       6.38    
+4        2        92.08      1.77     8.66       1.36       6.38    
+2        8        10.00      83.85    8.66       0.84       10.35   
+2        4        10.00      83.85    8.66       0.84       10.35   
+2        2        10.00      83.85    8.66       0.84       10.35   
+
+====================================================================================================
+BEST CONFIGURATIONS:
+====================================================================================================
+
+Best Accuracy: W8_A8 = 93.78%
+Best Compression: W2_A8 = 10.35x (Accuracy: 10.00%)
+Best Trade-off (<2% drop): W4_A8 = 6.38x (Drop: 1.77%)
+

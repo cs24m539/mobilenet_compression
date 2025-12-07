@@ -1,0 +1,84 @@
+Using device: cuda
+
+Loading CIFAR-10 dataset...
+Loading original model...
+Evaluating original model...
+Evaluating: 100% 79/79 [00:04<00:00, 18.38it/s]
+Original Model Accuracy: 93.85%
+Original Model Size: 8.66 MB
+
+================================================================================
+Applying quantization (W4/A8)...
+================================================================================
+
+Evaluating compressed model...
+Evaluating: 100% 79/79 [00:03<00:00, 23.15it/s]
+Compressed Model Accuracy: 92.08%
+
+================================================================================
+COMPRESSION RESULTS
+================================================================================
+Configuration: 4-bit weights, 8-bit activations
+
+Size Metrics:
+  Original Size:              8.6628 MB
+  Compressed Size:            1.3585 MB
+  Size Reduction:             7.3043 MB (84.3%)
+
+Compression Ratios:
+  Model Compression:          6.38x
+  Weight Compression:         8.00x (FP32 → 4-bit)
+  Activation Compression:     4.00x (FP32 → 8-bit)
+
+Accuracy Metrics:
+  Original Accuracy:          93.85%
+  Compressed Accuracy:        92.08%
+  Accuracy Drop:              1.77%
+  Relative Drop:              1.89%
+================================================================================
+wandb: Currently logged in as: cs24m539 (cs24m539-iitmaana) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: ⢿ Waiting for wandb.init()...
+wandb: ⣻ Waiting for wandb.init()...
+wandb: Tracking run with wandb version 0.23.0
+wandb: Run data is saved locally in /content/wandb/run-20251207_021732-4z2e4os8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run W4_A8
+wandb: ⭐️ View project at https://wandb.ai/cs24m539-iitmaana/mobilenet-compression
+wandb: 🚀 View run at https://wandb.ai/cs24m539-iitmaana/mobilenet-compression/runs/4z2e4os8
+wandb: ⢿ updating run metadata (0.7s)
+wandb: ⣻ updating run metadata (0.7s)
+wandb: ⣽ updating run metadata (0.7s)
+wandb: ⣾ updating run metadata (0.7s)
+wandb: ⣷ uploading config.yaml 2.0KB/2.0KB (0.1s)
+wandb: ⣯ uploading config.yaml 2.0KB/2.0KB (0.1s)
+wandb: ⣟ uploading config.yaml 2.0KB/2.0KB (0.1s)
+wandb: 
+wandb: Run history:
+wandb:                accuracy_drop ▁
+wandb:              activation_bits ▁
+wandb: activation_compression_ratio ▁
+wandb:          compressed_accuracy ▁
+wandb:           compressed_size_mb ▁
+wandb:      model_compression_ratio ▁
+wandb:            original_accuracy ▁
+wandb:             original_size_mb ▁
+wandb:                  weight_bits ▁
+wandb:     weight_compression_ratio ▁
+wandb: 
+wandb: Run summary:
+wandb:                accuracy_drop 1.77
+wandb:              activation_bits 8
+wandb: activation_compression_ratio 4
+wandb:          compressed_accuracy 92.08
+wandb:           compressed_size_mb 1.35851
+wandb:      model_compression_ratio 6.37671
+wandb:            original_accuracy 93.85
+wandb:             original_size_mb 8.66279
+wandb:                  weight_bits 4
+wandb:     weight_compression_ratio 8
+wandb: 
+wandb: 🚀 View run W4_A8 at: https://wandb.ai/cs24m539-iitmaana/mobilenet-compression/runs/4z2e4os8
+wandb: ⭐️ View project at: https://wandb.ai/cs24m539-iitmaana/mobilenet-compression
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251207_021732-4z2e4os8/logs
+
